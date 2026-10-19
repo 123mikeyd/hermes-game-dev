@@ -1,0 +1,18 @@
+name: game-dev
+version: 0.1.0
+description: Read-only game project inspection, bounded asset auditing, and evidence-first acceptance checklists.
+author: 123mikeyd
+license: MIT
+homepage: https://github.com/123mikeyd/hermes-game-dev
+tags: [game-development, godot, unity, unreal, assets, testing]
+provides_tools:
+  - game_dev_inspect
+  - game_dev_asset_audit
+  - game_dev_checklist
+provides_hooks: []
+provides_middleware: []
+requires_env: []
+python_dependencies: []
+# Native capabilities are privileged API grants, not catalog tool declarations.
+# This plugin requests no privileged grants. Catalog capabilities list the tools.
+capabilities: []
